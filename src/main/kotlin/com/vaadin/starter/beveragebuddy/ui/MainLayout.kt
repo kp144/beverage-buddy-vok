@@ -44,7 +44,7 @@ class MainLayout : VerticalLayout(), RouterLayout, PageConfigurator {
     init {
         addClassName("main-layout")
         content { align(stretch, top) }
-        div { // header
+        div { // header // can we have the header as a sidebar in the application
             addClassName("main-layout__header")
             h2("Beverage Buddy") {
                 addClassName("main-layout__title")
